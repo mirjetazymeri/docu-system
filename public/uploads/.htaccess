@@ -1,0 +1,8 @@
+<FilesMatch "\.ph(p[0-9]?|tml)$">
+  Require all denied
+</FilesMatch>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_URI} \.php [NC]
+  RewriteRule .* - [F]
+</IfModule>

@@ -1,0 +1,9 @@
+# Block PHP execution
+<FilesMatch "\.(php|php\d*|phtml|phar)$">
+    Require all denied
+</FilesMatch>
+
+# Allow all other assets
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

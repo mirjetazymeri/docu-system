@@ -1,0 +1,107 @@
+{
+    "name": "josh/laravel",
+    "type": "project",
+    "description": "Josh - Laravel Admin Template with GUI crud builder.",
+    "keywords": [
+        "GUI crud",
+        "laravel",
+        "dashboard",
+        "admin template"
+    ],
+    "license": "Envato License",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./infyomlabs/laravel-generator"
+        },
+        {
+            "type": "path",
+            "url": "./infyomlabs/generator-builder"
+        },
+        {
+            "type": "path",
+            "url": "./infyomlabs/core-templates"
+        }
+    ],
+    "require": {
+        "php": "^8.1.0",
+        "ext-gd": "*",
+        "arcanedev/log-viewer": "^10.0.0",
+        "barryvdh/laravel-dompdf": "^2.2",
+        "cartalyst/sentinel": "v7.0.0",
+        "consoletvs/charts": "^6.5.6",
+        "cviebrock/eloquent-sluggable": "^10.0.0",
+        "cviebrock/eloquent-taggable": "^10.0.0",
+        "doctrine/dbal": "^3.6.4",
+        "guzzlehttp/guzzle": "^7.7.0",
+        "infyomlabs/core-templates": "*",
+        "infyomlabs/generator-builder": "*",
+        "infyomlabs/laravel-generator": "^1.0",
+        "infyomlabs/swagger-generator": "dev-master",
+        "intervention/image": "^2.7.2",
+        "laravel/framework": "^v10.14.1",
+        "laravel/helpers": "v1.6.0",
+        "laravel/sanctum": "^v3.2.5",
+        "laravel/socialite": "v5.6.3",
+        "laravel/tinker": "^v2.8.1",
+        "laravelcollective/html": "v6.4.1",
+        "maatwebsite/excel": "^3.1.48",
+        "mcamara/laravel-localization": "^2.0",
+        "spatie/laravel-activitylog": "^4.8",
+        "spatie/laravel-analytics": "^5.0.2",
+        "yajra/laravel-datatables-buttons": "^9.0",
+        "yajra/laravel-datatables-oracle": "^10.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.16",
+        "barryvdh/laravel-ide-helper": "^v2.13.0",
+        "fakerphp/faker": "^v1.23.0",
+        "laravel/sail": "^v1.23.0",
+        "mockery/mockery": "^1.6.2",
+        "nunomaduro/collision": "^v7.7.0",
+        "phpunit/phpunit": "^10.2.3",
+        "spatie/laravel-ignition": "^2.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

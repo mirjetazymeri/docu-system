@@ -1,0 +1,45 @@
+/*
+ *  over-riding html elements
+*/
+body {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+blockquote {
+  padding: 10px 20px;
+}
+
+.dropdown-item:active {
+  background-color: transparent !important;
+}
+
+.indexpage.navbar-nav > .nav-item .nav-link:hover {
+  color: #01bc8c;
+}
+
+/*** custom code added by seenu **/
+.fs16 {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3NzL2Zyb250ZW5kL2N1c3RvbTEuY3NzIiwibWFwcGluZ3MiOiJBQUFBOztDQUFBO0FBR0E7RUFDSTtBQUNKOztBQUNBO0VBQ0k7QUFFSjs7QUFBQTtFQUNJO0FBR0o7O0FBREE7RUFDSTtBQUlKOztBQUZBO0VBQ0k7QUFLSjs7QUFIQTtFQUNJO0FBTUo7O0FBSkE7RUFDSTtBQU9KOztBQUpBO0VBQ0k7QUFPSjs7QUFKQTtFQUNJO0FBT0o7O0FBSkE7QUFDQTtFQUNJO0FBT0osQyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9zYXNzL2Zyb250ZW5kL2N1c3RvbTEuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogIG92ZXItcmlkaW5nIGh0bWwgZWxlbWVudHNcbiovXG5ib2R5IHtcbiAgICBmb250LXNpemU6IDE0cHg7XG59XG5oMSB7XG4gICAgZm9udC1zaXplOiAzNnB4O1xufVxuaDIge1xuICAgIGZvbnQtc2l6ZTogMzBweDtcbn1cbmgzIHtcbiAgICBmb250LXNpemU6IDI0cHg7XG59XG5oNCB7XG4gICAgZm9udC1zaXplOiAxOHB4O1xufVxuaDYge1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbn1cbmJsb2NrcXVvdGUge1xuICAgIHBhZGRpbmc6IDEwcHggMjBweDtcbn1cblxuLmRyb3Bkb3duLWl0ZW06YWN0aXZlIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudCAhaW1wb3J0YW50O1xufVxuXG4uaW5kZXhwYWdlLm5hdmJhci1uYXYgPiAubmF2LWl0ZW0gLm5hdi1saW5rOmhvdmVyIHtcbiAgICBjb2xvcjogIzAxYmM4Yztcbn1cblxuLyoqKiBjdXN0b20gY29kZSBhZGRlZCBieSBzZWVudSAqKi9cbi5mczE2IHtcbiAgICBmb250LXNpemU6IDE2cHg7XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

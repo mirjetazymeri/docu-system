@@ -1,0 +1,92 @@
+.bg-custom-dark {
+    background-color:#1F514D; /* Replace this with your desired color */
+    color: #fff; /* Ensure the text color contrasts well with the background */
+}
+.bg-custom-green-dark {
+    background-color:#1F514D; /* Replace this with your desired color */
+    color: #fff; /* Ensure the text color contrasts well with the background */
+}
+.bg-custom-green-light {
+    background-color :#1F514D; /* Replace this with your desired color */
+    color: #fff; /* Ensure the text color contrasts well with the background */
+}
+.bg-header-custum {
+    background-color:#1F514D; /* Replace this with your desired color */
+    color: #fff; /* Ensure the text color contrasts well with the background */
+}
+
+
+/* Custom Button Colors */
+.btn-custom-primary {
+    background-color:#1F514D; /* Replace with your desired primary color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-primary:hover, .btn-custom-primary:focus, .btn-custom-primary:active {
+    background-color#1F514D; /* Darker shade for hover, focus, active states */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-secondary {
+    background-color: #94d2bd; /* Replace with your desired secondary color */
+    color: #000; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-secondary:hover, .btn-custom-secondary:focus, .btn-custom-secondary:active {
+    background-color: #82c1a8; /* Darker shade for hover, focus, active states */
+    color: #000; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-info {
+    background-color:#1F514D#1F514D; /* Replace with your desired info color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-info:hover, .btn-custom-info:focus, .btn-custom-info:active {
+    background-color: #326fdd; /* Darker shade for hover, focus, active states */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-danger {
+    background-color: #ff4b5c; /* Replace with your desired danger color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-custom-danger:hover, .btn-custom-danger:focus, .btn-custom-danger:active {
+    background-color: #bc606a; /* Darker shade for hover, focus, active states */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+}
+
+
+/* Stars Employee */
+.star-rating {
+    display: inline-block;
+    white-space: nowrap; /* Prevent line breaks */
+    vertical-align: middle; /* Align stars vertically with text */
+}
+
+.star-rating i {
+    margin: 0 1px;
+    font-size: 1.2em; /* Adjust size as needed */
+}
+
+@media (max-width: 768px) {
+    .star-rating i {
+        font-size: 1em; /* Adjust size for smaller screens if needed */
+    }
+}
+/* End Stars Employee */
+
+
+
+
+
+

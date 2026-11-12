@@ -1,0 +1,20 @@
+/*** ---------- Contact Css Start ----------*/
+.media-top .box-icon {
+  background-color: #01bc8c;
+  border: 1px solid #01bc8c;
+  border-radius: 50%;
+  display: table;
+  height: 40px;
+  width: 40px;
+  margin: 0px;
+}
+
+.media-top .box-icon > i {
+  position: relative;
+  left: 8px;
+  top: 7px;
+}
+
+/*** ---------- //Contact Css End ----------*/
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3NzL2Zyb250ZW5kL2NvbnRhY3QuY3NzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQUNKOztBQUNBO0VBQ0k7RUFDQTtFQUNBO0FBRUo7O0FBQUEsOEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9mcm9udGVuZC9wYWdlcy9jb250YWN0LnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqKiAtLS0tLS0tLS0tIENvbnRhY3QgQ3NzIFN0YXJ0IC0tLS0tLS0tLS0qL1xuLm1lZGlhLXRvcCAuYm94LWljb24ge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMwMWJjOGM7XG4gICAgYm9yZGVyOiAxcHggc29saWQgIzAxYmM4YztcbiAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgZGlzcGxheTogdGFibGU7XG4gICAgaGVpZ2h0OiA0MHB4O1xuICAgIHdpZHRoOiA0MHB4O1xuICAgIG1hcmdpbjogMHB4O1xufVxuLm1lZGlhLXRvcCAuYm94LWljb24gPiBpIHtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgbGVmdDogOHB4O1xuICAgIHRvcDogN3B4O1xufVxuLyoqKiAtLS0tLS0tLS0tIC8vQ29udGFjdCBDc3MgRW5kIC0tLS0tLS0tLS0qL1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/

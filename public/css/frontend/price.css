@@ -1,0 +1,17 @@
+/* ---------- Price Tabels ---------- */
+/* ---------- Price Box Round Symbol Css ---------- */
+.box_round_symbol {
+  background-color: var(--danger);
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 21px 1px 1px 0px;
+  margin: auto;
+}
+
+/* ---------- //Price Box Round Symbol Css End---------- */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3NzL2Zyb250ZW5kL3ByaWNlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUFDSjs7QUFDQSwyRCIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3Jlc291cmNlcy9zYXNzL2Zyb250ZW5kL3BhZ2VzL3ByaWNlLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLyogLS0tLS0tLS0tLSBQcmljZSBUYWJlbHMgLS0tLS0tLS0tLSAqL1xuLyogLS0tLS0tLS0tLSBQcmljZSBCb3ggUm91bmQgU3ltYm9sIENzcyAtLS0tLS0tLS0tICovXG4uYm94X3JvdW5kX3N5bWJvbCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tZGFuZ2VyKTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiA0MHB4O1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgICB3aWR0aDogMTAwcHg7XG4gICAgaGVpZ2h0OiAxMDBweDtcbiAgICBwYWRkaW5nOiAyMXB4IDFweCAxcHggMHB4O1xuICAgIG1hcmdpbjogYXV0bztcbn1cbi8qIC0tLS0tLS0tLS0gLy9QcmljZSBCb3ggUm91bmQgU3ltYm9sIENzcyBFbmQtLS0tLS0tLS0tICovXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

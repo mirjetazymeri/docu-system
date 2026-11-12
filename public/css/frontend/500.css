@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  text-align: center;
+  font-family: "Lato", arial;
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  padding: 7px 24px;
+  transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+}
+
+h1 {
+  font-size: 120px;
+  text-align: center;
+}
+
+.form-control {
+  background-color: #ffffff !important;
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+  box-shadow: none;
+  color: #555555;
+  display: inline-block;
+  font-size: 13px;
+  height: auto;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3NzL2Zyb250ZW5kLzUwMC5jc3MiLCJtYXBwaW5ncyI6IjtBQUNBO0VBQ0k7RUFDQTtBQUNKOztBQUNBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBRUo7O0FBQUE7RUFDSTtFQUNBO0FBR0o7O0FBREE7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQUlKLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9mcm9udGVuZC9wYWdlcy81MDAuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybChodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TGF0byk7XG5ib2R5IHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1mYW1pbHk6ICdMYXRvJywgYXJpYWw7XG59XG4uYnRuIHtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgZm9udC1zaXplOiAxNXB4O1xuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgbGluZS1oZWlnaHQ6IDEuNDtcbiAgICBwYWRkaW5nOiA3cHggMjRweDtcbiAgICB0cmFuc2l0aW9uOiBib3JkZXIgMC4yNXMgbGluZWFyIDBzLCBjb2xvciAwLjI1cyBsaW5lYXIgMHMsIGJhY2tncm91bmQtY29sb3IgMC4yNXMgbGluZWFyIDBzO1xufVxuaDEge1xuICAgIGZvbnQtc2l6ZTogMTIwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLmZvcm0tY29udHJvbCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZiAhaW1wb3J0YW50O1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICNkM2QzZDM7XG4gICAgYm9yZGVyLXJhZGl1czogMnB4O1xuICAgIGJveC1zaGFkb3c6IG5vbmU7XG4gICAgY29sb3I6ICM1NTU1NTU7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGZvbnQtc2l6ZTogMTNweDtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgcGFkZGluZzogOHB4IDEycHg7XG4gICAgd2lkdGg6IDEwMCU7XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

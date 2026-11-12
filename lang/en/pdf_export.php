@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'stopped' => 'Preparation stopped.',
+    'preparing' => 'Preparing the PDF…',
+    'browser_error' => 'The PDF could not be prepared in the browser. Refresh the page and try again.',
+    'merging' => 'Saving the complete PDF…',
+    'ready' => 'The PDF is ready — :pages pages.',
+    'download_hint' => 'Open or download the PDF below.',
+    'unsupported_browser' => 'The browser could not start preparing the PDF. Try an updated browser.',
+    'changed' => 'The documentation has changed. Refresh the page to get the latest version.',
+    'access' => 'Check your login and permission for this project, then try again.',
+    'http_error' => 'The document could not be prepared (HTTP :status). Try again or check its content.',
+    'revision_error' => 'The documentation version could not be verified. Please try again.',
+    'changed_during_export' => 'The documentation changed during preparation. Refresh the page and try again.',
+    'generic' => 'The document could not be prepared. Check its content and try again.',
+    'unsupported_element' => 'The <:tag> element is not supported in PDF. Remove it or replace it with a PNG/JPG image.',
+    'missing_source' => 'An image has no valid source (src). Delete it and upload it again using the image button.',
+    'empty_image' => 'An image is empty. Delete it and upload it again.',
+    'external_image' => 'The PDF cannot use an image from an external URL. Download the image and upload it directly in the editor.',
+    'image_format' => 'An image format is not supported. Use PNG, JPG/JPEG or GIF only.',
+    'damaged_image' => 'An image is damaged. Delete it and upload it again.',
+    'large_image' => 'An image is larger than 5 MB. Compress it or reduce its dimensions and try again.',
+    'font_missing' => 'The PDF Unicode/emoji font is missing.',
+    'font_error' => 'The Unicode/emoji font could not be loaded in the PDF.',
+];

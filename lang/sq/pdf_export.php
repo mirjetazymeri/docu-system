@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'stopped' => 'Përgatitja u ndërpre.',
+    'preparing' => 'Duke përgatitur PDF-në…',
+    'browser_error' => 'PDF-ja nuk mund të përgatitej në shfletues. Rifreskoni faqen dhe provoni përsëri.',
+    'merging' => 'Duke ruajtur PDF-në e përgjithshme…',
+    'ready' => 'PDF-ja është gati — :pages faqe.',
+    'download_hint' => 'Hapeni ose shkarkojeni PDF-në më poshtë.',
+    'unsupported_browser' => 'Shfletuesi nuk mund ta nisë përgatitjen e PDF-së. Provoni me një shfletues të përditësuar.',
+    'changed' => 'Dokumentacioni ka ndryshuar. Rifreskoni faqen për të marrë versionin e fundit.',
+    'access' => 'Kontrolloni hyrjen në llogari dhe lejen për këtë projekt, pastaj provoni përsëri.',
+    'http_error' => 'Dokumenti nuk u përgatit (HTTP :status). Provoni përsëri ose kontrolloni përmbajtjen e tij.',
+    'revision_error' => 'Nuk u verifikua versioni i dokumentacionit. Provoni përsëri.',
+    'changed_during_export' => 'Dokumentacioni ka ndryshuar gjatë përgatitjes. Rifreskoni faqen dhe provoni përsëri.',
+    'generic' => 'Dokumenti nuk u përgatit. Kontrolloni përmbajtjen dhe provoni përsëri.',
+    'unsupported_element' => 'Elementi <:tag> nuk mbështetet në PDF. Hiqeni ose zëvendësojeni me një imazh PNG/JPG.',
+    'missing_source' => 'Një imazh nuk ka burim të vlefshëm (src). Fshijeni dhe ngarkojeni përsëri nga butoni i imazhit.',
+    'empty_image' => 'Një imazh është bosh. Fshijeni dhe ngarkojeni përsëri.',
+    'external_image' => 'PDF-ja nuk mund të përdorë imazh nga një URL e jashtme. Shkarkojeni imazhin dhe ngarkojeni direkt në editor.',
+    'image_format' => 'Formati i një imazhi nuk mbështetet. Përdorni vetëm PNG, JPG/JPEG ose GIF.',
+    'damaged_image' => 'Një imazh është i dëmtuar. Fshijeni dhe ngarkojeni përsëri.',
+    'large_image' => 'Një imazh është më i madh se 5 MB. Kompresojeni ose zvogëloni dimensionet dhe provojeni përsëri.',
+    'font_missing' => 'Fonti Unicode/emoji i PDF-së mungon.',
+    'font_error' => 'Fonti Unicode/emoji nuk mund të ngarkohet në PDF.',
+];
